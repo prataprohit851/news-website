@@ -1,7 +1,7 @@
 const express = require('express');
 const NewsAPI = require('newsapi');
 const bodyParser = require('body-parser');
-const newsapi = new NewsAPI('4a6a974cc6d3453191ed916d7d2136d7');
+const newsapi = new NewsAPI(~);
 
 
 const app = express();
